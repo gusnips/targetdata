@@ -1,0 +1,13 @@
+node_modules
+dist
+*.log
+.DS_Store
+.env
+.env.*
+coverage
+*.tsbuildinfo
+.claude/worktrees
+# scratch from copying the Postman spec by hand: example responses hold real-looking personal data
+postman-collection-*
+*.postman_collection*
+*.save
