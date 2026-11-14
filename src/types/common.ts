@@ -64,7 +64,8 @@ export interface PlacaRequest {
 
 /** Send the plate, the chassis number, or both. */
 export type PlacaOrChassiRequest =
-  { placa: string; chassi?: string } | { chassi: string; placa?: string };
+  | { placa: string; chassi?: string }
+  | { chassi: string; placa?: string };
 
 /** The `request_id` of an earlier answer, to reprocess it or read its status. */
 export interface RequestIdRequest {

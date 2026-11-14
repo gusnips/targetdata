@@ -1225,7 +1225,8 @@ export interface VeiculosComunicacaoVendaResponse {
 
 /** Send the plate, the RENAVAM number, or both. */
 export type RenajudRequest =
-  { placa: string; renavam?: string } | { renavam: string; placa?: string };
+  | { placa: string; renavam?: string }
+  | { renavam: string; placa?: string };
 
 export interface VeiculosResultsRenajud {
   consta_renajud?: boolean;
